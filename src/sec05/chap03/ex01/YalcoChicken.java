@@ -17,9 +17,15 @@ public class YalcoChicken {
     String name;
     int no;
 
-    public YalcoChicken(int no, String name) {
+    public YalcoChicken(int no, String name, String brand) {
         this.no = no;
         this.name = name;
+        this.brand = brand;
+    }
+
+    public YalcoChicken(int no, String name) {
+        this.name = name;
+        this.no = no;
     }
 
     String intro() {
